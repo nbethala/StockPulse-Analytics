@@ -1,5 +1,5 @@
 
-Quantitative Analysis of Stock Market
+Quantitative Analysis of Stocks 
 --------------------------------------
 
 Project Overview
