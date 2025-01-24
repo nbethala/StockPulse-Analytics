@@ -37,7 +37,7 @@ Prior to beginning the analysis, a variety of checks were conducted in excel for
 
 ## **Overview of findings**
 
-**Descriptive Statistics:**
+### **Descriptive Statistics:**
 Descriptive Statistics for AAPL, GOOG, MSFT, and NFLX stocks based on their closing prices. This analysis provides insights into how each stock behaves in terms of its closing price movement.
 
  - NFLX shows the highest mean closing price at 327.61, followed by MSFT at 275.0
@@ -46,8 +46,8 @@ Descriptive Statistics for AAPL, GOOG, MSFT, and NFLX stocks based on their clos
    the larger fluctuations in its price.
  - GOOG has the lowest standard deviation of (6.2), followed by AAPL (7.3) indicating less variability in closing 
     prices.
-  
-**Key Insights**:
+
+ ### **Key Insights**:
   - NFLX is the most expensive and volatile stock, with a high standard deviation(18.55).
   - MSFT is highly volatile and higher standard deviation(17.6).
   - GOOG is the most stable in terms of closing price, with the lowest standard deviation(6.2).
@@ -55,10 +55,10 @@ Descriptive Statistics for AAPL, GOOG, MSFT, and NFLX stocks based on their clos
   
 ![Descriptive_Analysis](https://github.com/user-attachments/assets/4db617f2-cca0-4b6f-bdd3-3219ca36b3e2)
 
-**Time Series Analysis:**
+### **Time Series Analysis:**
 The primary goal of the Time series analysis is to evaluate how the closing prices of the stocks have behaved over time and to understand their potential future movements. For the time series analysis for AAPL, MSFT, GOOG, and NFLX, we'll focus on the following key components: Trend, Volatility and Comparative Performance.
 
-**Key Insights**:
+### **Key Insights**:
   - All four stocks are exibiting an upward trend with varying degrees of growth.
   - AAPL and MSFT show upward trend. 
   - NFLX shows a higher volatility and increased risk therefore it is a high-risk, high-reward opportunity stock.
@@ -67,12 +67,12 @@ The primary goal of the Time series analysis is to evaluate how the closing pric
 
 ![Time_Series_Analysis](https://github.com/user-attachments/assets/4b6593c9-1a29-427d-aa2e-79fbe2218985)
 
-**Volatility Analysis:**
+### **Volatility Analysis:**
    The bar chart and the accompanying data show the volatility (measured as standard deviation) of the closing 
    prices for each stock. It indicated that NFLX and MSFT stocks were more prone to price fluctuations that compared 
    to AAPL and GOOG. Here’s how they rank in terms of volatility to assess risk into the financial markets.
 
-   **Key Insights**:
+  ### **Key Insights**:
     - NFLX: Highest volatility with a standard deviation of approximately 18.55.
     - MSFT: Next highest volatility stock, with a standard deviation of 17.68.
     - AAPL: Lower volatility compared to NFLX and MSFT, with a standard deviation of 7.36.
@@ -80,13 +80,13 @@ The primary goal of the Time series analysis is to evaluate how the closing pric
 
 ![Volatility_Analysis](https://github.com/user-attachments/assets/18355e0c-34c8-4f4a-9149-3676333e664d)
 
-**Correlation Analysis:**
+### **Correlation Analysis:**
     Here we are using the correlation analysis to measure the relationship between the price movements of different 
     assets. To determine whether the price movements of one stock are related to the price movements of another. 
     The heat map displays the correlation matrix of the closing prices of the four stocks (AAPL, GOOG, MSFT, 
     NFLX) with correlation values ranging from -1 to +1.
 
-   **Key Insights**:
+ ### **Key Insights**:
      - AAPL and MSFT have a very strong positive correlation (0.95). This indicates that Apple and Microsoft tend to 
        move in similar directions, due to their similar market dynamics in the tech sector.
      - AAPL and GOOG show a strong correlation (0.90). Both stocks belong to the tech sector, but Google (Alphabet) 
@@ -99,11 +99,11 @@ The primary goal of the Time series analysis is to evaluate how the closing pric
 
 ![Correlation_Matrix_Analysis](https://github.com/user-attachments/assets/dad873b7-60b0-4acd-b32a-8832cd301f55)      
   
-**Comparative Analysis:**
+### **Comparative Analysis:**
   In this step, we’ll compare the performance of different stocks based on their returns over the period. We’ll 
   calculate the percentage change in closing prices from the start to the end of the period for each stock:
 
- **Key Insights**:     
+### **Key Insights**:     
    - MSFT: +16.10% the highest positive change with strongest overall performance in terms of returns, growth, and 
      profitability.
    - AAPL: +12.23% indicates a solid performance, though slightly lower than MSFT. 
@@ -112,12 +112,12 @@ The primary goal of the Time series analysis is to evaluate how the closing pric
 
 ![Comparative_Analysis](https://github.com/user-attachments/assets/6528526e-ce24-4219-8f5a-3d00525442cf)
   
-**Risk-Return Trade-off Analysis**:
+### **Risk-Return Trade-off Analysis**:
   The risk-return trade-off, we calculated the average daily return and the standard deviation of daily returns for 
   each stock. The standard deviation will serve as a proxy for risk, while the average daily return represents the 
   expected return.
   
-**Key Insights**: 
+### **Key Insights**: 
   key metrics for the given time period suggest: 
   - AAPL shows the lowest risk combined with a positive average daily return. Suggests more stable investment with 
     consistent returns
@@ -145,9 +145,7 @@ Based on the uncovered insights, the following recommendations have been provide
   - NFLX exhibits the highest volatility and a negative average daily return, indicating it is the most volatile and
     least rewarding investment among these stocks over the analyzed period. Its high volatility suggest it may not 
     provide a sufficient return for the level of risk involved, making it a less attractive option unless you're 
-    particularly bullish on its future prospects or looking for speculative opportunities.
-
- 
+    particularly bullish on its future prospects or looking for speculative opportunities. 
 
 
 
