@@ -128,7 +128,7 @@ The primary goal of the Time series analysis is to evaluate how the closing pric
 
 ![Risk_vs_Return_Analysis](https://github.com/user-attachments/assets/57f4938d-7197-4fc7-b27f-78f1c0bb41b9)
 
-**Recommendations:**
+# **Recommendations:**
 
 Based on the uncovered insights, the following recommendations have been provided for the Investment Implications.
 
